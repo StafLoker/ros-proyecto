@@ -8,7 +8,10 @@ endif()
 # find dependencies
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/MensajeTest.msg")
+  "msg/Accesos.msg"
+  "msg/Ambiente.msg"
+  "msg/EstadoCasa.msg"
+)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
