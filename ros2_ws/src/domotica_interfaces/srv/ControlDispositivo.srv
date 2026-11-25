@@ -1,0 +1,5 @@
+string dispositivo      # "luz", "calefaccion" o "alarma"
+bool encender
+---
+bool exito
+string estado           # p. ej. "luz: ON"; mensaje de error si el dispositivo no existe
